@@ -12,7 +12,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @CrossOrigin(origins = "*")
 public class AnalyticsController {
 
-    private final AtomicInteger totalVisits = new AtomicInteger(1);
+    private final AtomicInteger totalVisits = new AtomicInteger(109);
     private final Set<String> visitors = ConcurrentHashMap.newKeySet();
 
     @PostMapping("/visit")
